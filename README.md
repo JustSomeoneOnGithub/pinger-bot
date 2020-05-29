@@ -1,6 +1,6 @@
 # Pinger Bot
 ***
-**This bot was made by `Reverse#0001` or User ID `658346535087636505`.**\
+This bot was made by `Reverse#0001` or User ID `658346535087636505`.\
 You can spam the letter `p` and the bot will ping you in DMs.\
 This bot requires node.js `v12` to run.\
 You can contact me via DMs or through the [Support Server](https://discord.gg/fWvrhxp).\
