@@ -37,12 +37,32 @@ client.on("guildCreate", (guild) => {
   console.log(`Joined guild ${guild.name}.`)
   client.destroy()
   client.login(config.token);
+  client.user.setActivity(`=help`, { type: "LISTENING" });
 });
 
 client.on("guildDelete", (guild) => {
   console.log(`Left guild ${guild.name}.`)
     client.destroy()
     client.login(config.token);
+    client.user.setActivity(`=help`, { type: "LISTENING" });
+});
+
+client.on("guildMemberAdd", () => {
+  client.destroy()
+  client.login(config.token);
+  client.user.setActivity(`=help`, { type: "LISTENING" });
+});
+
+client.on("guildMemberRemove", () => {
+  client.destroy()
+  client.login(config.token);
+  client.user.setActivity(`=help`, { type: "LISTENING" });
+});
+
+client.on("error", (err) => {
+  console.log(err);
+  client.login(config.token);
+  client.user.setActivity(`=help`, { type: "LISTENING" });
 });
 
 client.login(config.token);
