@@ -1,2 +1,2 @@
-Discord.js v12.2.0 requires node.js v12.0.0.
+Discord.js v12.2.0 requires at least node.js v12.0.0.
 Run "node -v" in the terminal to check your node version.
