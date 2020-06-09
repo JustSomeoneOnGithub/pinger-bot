@@ -47,20 +47,8 @@ client.on("guildDelete", (guild) => {
     client.user.setActivity(`=help`, { type: "LISTENING" });
 });
 
-client.on("guildMemberAdd", () => {
+client.on("guildMemberAdd" || "guildMemberRemove" || "error", () => {
   client.destroy()
-  client.login(config.token);
-  client.user.setActivity(`=help`, { type: "LISTENING" });
-});
-
-client.on("guildMemberRemove", () => {
-  client.destroy()
-  client.login(config.token);
-  client.user.setActivity(`=help`, { type: "LISTENING" });
-});
-
-client.on("error", (err) => {
-  console.log(err);
   client.login(config.token);
   client.user.setActivity(`=help`, { type: "LISTENING" });
 });
