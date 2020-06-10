@@ -3,7 +3,7 @@
 This bot was made by `Reverse#0001` or User ID `658346535087636505`.\
 This discord bot can easily build up your pings!
 ***
-# MUST\
+# MUST
 For **Windows**:\
 Run `installer.bat` to install the dependencies and then `start.bat` to start the bot.\
 For **Mac & Linux**:\
