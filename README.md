@@ -1,6 +1,6 @@
 # Pinger Bot
 
-This bot was made by `Reverse#0001` or User ID `658346535087636505`.\
+This bot was made by `Reverse#1728` or User ID `658346535087636505`.\
 This discord bot can easily build up your pings!
 ***
 # MUST
